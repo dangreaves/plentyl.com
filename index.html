@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="panel" id="panel">
+    <h1 class="panel__logo">plentyl</h1>
+    <p class="panel__title">Plentyl Ltd is the contracting business for Dan Greaves, a Sydney based web developer specialising in PHP API development</p>
+    <a href="http://dangreaves.com" class="panel__status">dangreaves.com</a>
+</div>
+<script type="text/javascript">
+    (function() {
+        var panel = document.getElementById('panel');
+        if (panel.offsetHeight > window.innerHeight) {
+            panel.className = panel.className + ' panel--static';
+        }
+    })();
+</script>

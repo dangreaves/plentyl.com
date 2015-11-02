@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400|Roboto+Condensed:400);
+
+//Base
+
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    background: $c-primary;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    @include font-size(16);
+    color: #121212;
+}

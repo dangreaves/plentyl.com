@@ -1,0 +1,15 @@
+# Site settings
+title: Plentyl
+email: dan@dangreaves.com
+description: >
+  Plentyl Ltd is the contracting business for Dan Greaves, a Sydney based web developer specialising in PHP API development
+baseurl: ""
+url: "http://plentyl.com"
+
+# Conversion
+markdown: kramdown
+
+# Outputting
+permalink: /blog/:title
+paginate: 5
+paginate_path: /blog/page:num

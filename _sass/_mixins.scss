@@ -1,0 +1,16 @@
+//Clearfix
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+//Font size
+
+@mixin font-size($sizeValue: 16) {
+    font-size: $sizeValue + px;
+    font-size: ($sizeValue / 10) + rem;
+}
